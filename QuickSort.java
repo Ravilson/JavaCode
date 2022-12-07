@@ -4,7 +4,7 @@ public class QuickSort {
     public static void main(String[] args) {
 
 
-        int[] array = new int[]{93,23,54,32,78,53,21,0,12,48,61,85,45};
+        int[] array = new int[]{93,23,54,32,78,53,21,0,12,48,61,85,45,13};
 
         System.out.println(arrayToString(array));
         quickSort(array, 0, array.length -1);
